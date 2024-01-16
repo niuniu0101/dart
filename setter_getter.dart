@@ -1,8 +1,8 @@
 void main() {
   car a = new car("奔驰", 12);
-  print(a.name);
-  a.age = 100;
-  print(a.age);
+  print(a._name);
+  a._age = 100;
+  print(a._age);
   a.setname = "宝马"; // 调用 setter
   print(a.getage); // 调用getter
 
